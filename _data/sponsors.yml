@@ -35,12 +35,9 @@ diamond:
     - 6 biglietti gratuiti
   max: 2
   list:
-   -
-     url: https://www.nutanix.com
-     image: nutanix.svg
-   -
-     url: http://www.4devops.it?utm_source=containerday
-     image: 4devops.svg
+#   -
+#     url: http://www.4devops.it?utm_source=containerday
+#     image: 4devops.svg
 platinum:
   price: € 3,000
   offer:
@@ -53,9 +50,9 @@ platinum:
     - 4 biglietti gratuiti
   max: 8
   list:
-    -
-      url: http://www.ideato.it?utm_source=containerday
-      image: ideato.svg
+#    -
+#      url: http://www.ideato.it?utm_source=containerday
+#      image: ideato.svg
 
 gold:
   price: € 1,000
@@ -68,9 +65,6 @@ gold:
     - 3 biglietti gratuiti
   max: 16
   list:
-    -
-      url: http://www.sparkfabrik.com?utm_source=containerday
-      image: sparkfabrik.svg
 
 silver:
   price: € 500
@@ -82,25 +76,9 @@ silver:
     - 2 biglietti gratuiti
   max: 32
   list:
-    -
-      url: https://www.opencontent.it?utm_source=containerday2018
-      image: opencontent.svg
-
-    -
-      url: http://aws.amazon.com?utm_source=containerday2018
-      image: aws.svg
-
-    -
-      url: http://clastix.io?utm_source=containerday2018
-      image: clastix.svg
-
-    -
-      url: https://labs.madisoft.it/devops-engineer/?utm_source=containerday2018
-      image: madisoft.svg
-
-    -
-      url: https://www.workwave.com/?utm_source=containerday
-      image: workwave.svg
+#    -
+#      url: https://www.workwave.com/?utm_source=containerday
+#      image: workwave.svg
 
 bronze:
   price: € 300
@@ -109,6 +87,3 @@ bronze:
     - 1 biglietto gratuito
   max: 64
   list:
-    -
-      url: http://www.imolainformatica.it?utm_source=containerday2018
-      image: imolainformatica.png

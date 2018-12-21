@@ -1,0 +1,114 @@
+# place images in:
+# img/sponsors/file.jpg
+# img/sponsors/guide.pdf
+
+pdf:
+call_for_sponsor: true
+
+main:
+  price: € 10,000
+  offer:
+    - Banchetto 1m x 2m in sala o nella hall
+    - Accesso alla lista partecipanti opt-in (in conformità alle leggi vigenti)
+    - Possibilità di tenere un talk tecnico (sono escluse le tematiche commerciali).
+      Il talk dovrà essere preapprovato dagli organizzatori.
+    - Banchetto principale 2m x 1m in sala o nella hall
+    - Posizionamento vostro roll-up in sala
+    - Vostro logo sui roll-up dell'evento
+    - Pubblicità nelle comunicazioni pre-evento
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 10 biglietti gratuiti
+  max: 1
+  list:
+
+diamond:
+  price: € 5,000
+  offer:
+    - Banchetto 1m x 1m in sala o nella hall
+    - Accesso alla lista partecipanti opt-in (in conformità alle leggi vigenti)
+    - Posizionamento vostro roll-up in sala
+    - Vostro logo sui roll-up dell'evento
+    - Pubblicità nelle comunicazioni pre-evento
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 6 biglietti gratuiti
+  max: 2
+  list:
+   -
+     url: https://www.nutanix.com
+     image: nutanix.svg
+   -
+     url: http://www.4devops.it?utm_source=containerday
+     image: 4devops.svg
+platinum:
+  price: € 3,000
+  offer:
+    - Banchetto 1m x 1m in sala o nella hall
+    - Posizionamento vostro roll-up in sala
+    - Vostro logo sui roll-up dell'evento
+    - Pubblicità nelle comunicazioni pre-evento
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 4 biglietti gratuiti
+  max: 8
+  list:
+    -
+      url: http://www.ideato.it?utm_source=containerday
+      image: ideato.svg
+
+gold:
+  price: € 1,000
+  offer:
+    - Posizionamento vostro roll-up in sala
+    - Vostro logo sui roll-up dell'evento
+    - Pubblicità nelle comunicazioni pre-evento
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 3 biglietti gratuiti
+  max: 16
+  list:
+    -
+      url: http://www.sparkfabrik.com?utm_source=containerday
+      image: sparkfabrik.svg
+
+silver:
+  price: € 500
+  offer:
+    - Vostro logo sui roll-up dell'evento
+    - Pubblicità nelle comunicazioni pre-evento
+    - Banner sul sito
+    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - 2 biglietti gratuiti
+  max: 32
+  list:
+    -
+      url: https://www.opencontent.it?utm_source=containerday2018
+      image: opencontent.svg
+
+    -
+      url: http://aws.amazon.com?utm_source=containerday2018
+      image: aws.svg
+
+    -
+      url: http://clastix.io?utm_source=containerday2018
+      image: clastix.svg
+
+    -
+      url: https://labs.madisoft.it/devops-engineer/?utm_source=containerday2018
+      image: madisoft.svg
+
+    -
+      url: https://www.workwave.com/?utm_source=containerday
+      image: workwave.svg
+
+bronze:
+  price: € 300
+  offer:
+    - Banner sul sito
+    - 1 biglietto gratuito
+  max: 64
+  list:
+    -
+      url: http://www.imolainformatica.it?utm_source=containerday2018
+      image: imolainformatica.png

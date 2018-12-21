@@ -1,0 +1,120 @@
+---
+title: Schedule
+---
+
+<div class="limit limit--top-margin">
+
+  {% include schedule/intro.html date='26 Ottobre' %}
+
+  <div class="schedule" data-dates="10-26">
+    <table class="schedule__table">
+      <thead>
+        {% include schedule/header.html tracks='1' %}
+      </thead>
+      <tbody>
+        {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='9.45-9.55' title='Presentazione GrUSP' fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='10.00-10.30' title='Progettare un ambiente di sviluppo locale basato sui container' fill='true' %}
+        <tr>
+        </tr>
+          {% include schedule/talk.html time='10.35-11.05' title='La nostra infrastruttura di produzione a container con Docker, Rancher e ZFS' fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='11.05-11.30' title='Coffee break' icon="coffee" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='11.30-12.00' title='Kubernetes Pod: deep-dive'  fill='true' %}
+        </tr>
+        <tr>
+          {% include schedule/talk.html time='12.05-12.35' title='KOPS - automate, version and deploy a fully production Kubernetes cluster on AWS' fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='12.35-14.00' title='Lunch' icon="food" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html  time='14.00-14.30' title='Amazon Elastic Container Service for Kubernetes (EKS): A case study' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html  time='14.35-15.05' title='Nutanix Epoch (Netsil) Universal Observatory and Monitoring for Modern Cloud Apps' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='15.10-15.40' title='Alibaba cloud Container Service deep diving'  fill='true'  %}
+        </tr>
+
+        {% include schedule/pause.html time='15.40-16.10' title='Coffee break' icon="coffee" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='16.10-16.40' title='Introduzione a Traefik'  fill='true'  %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='16.45-17.15' title='Evoluzione dei container nella continuous integration'  fill='true'  %}
+        </tr>
+
+        {% include schedule/event.html time='17.15-17.25' title='Bye bye from GrUSP' fill='true' %}
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="schedule schedule--mobile" data-dates="10-26">
+    <table class="schedule__table">
+      <thead>
+        {% include schedule/header.html track='1' %}
+      </thead>
+      <tbody>
+        {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='9.45-9.55' title='Presentazione GrUSP' fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='10.00-10.30' title='Progettare un ambiente di sviluppo locale basato sui container' fill='true' %}
+        <tr>
+        </tr>
+          {% include schedule/talk.html time='10.35-11.05' title='La nostra infrastruttura di produzione a container con Docker, Rancher e ZFS' fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='11.05-11.30' title='Coffee break' icon="coffee" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='11.30-12.00' title='Kubernetes Pod: deep-dive'  fill='true' %}
+        </tr>
+        <tr>
+          {% include schedule/talk.html time='12.05-12.35' title='KOPS - automate, version and deploy a fully production Kubernetes cluster on AWS' fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='12.35-14.00' title='Lunch' icon="food" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html  time='14.00-14.30' title='Amazon Elastic Container Service for Kubernetes (EKS): A case study' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html  time='14.35-15.05' title='Nutanix Epoch (Netsil) Universal Observatory and Monitoring for Modern Cloud Apps' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='15.10-15.40' title='Alibaba cloud Container Service deep diving'  fill='true'  %}
+        </tr>
+
+        {% include schedule/pause.html time='15.40-16.10' title='Coffee break' icon="coffee" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='16.10-16.40' title='Introduzione a Traefik'  fill='true'  %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='16.45-17.15' title='Evoluzione dei container nella continuous integration'  fill='true'  %}
+        </tr>
+
+        {% include schedule/event.html time='17.15-17.25' title='Bye bye from GrUSP' fill='true' %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% include index/newsletter.html %}
+{% include index/sponsors.html %}

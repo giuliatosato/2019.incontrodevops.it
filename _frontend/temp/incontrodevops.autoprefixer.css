@@ -4955,6 +4955,12 @@ body {
   vertical-align: middle;
 }
 
+@media (max-width: 768px) {
+  .header__conf-name {
+    font-size: 0px;
+  }
+}
+
 .header__menu {
   display: table-cell;
   text-align: right;

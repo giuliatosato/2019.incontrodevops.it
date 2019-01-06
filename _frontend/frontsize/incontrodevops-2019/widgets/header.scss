@@ -27,6 +27,11 @@
     @include conf-name;
     display: table-cell;
     vertical-align: middle;
+
+
+        @include media ('<=tablet-small') {
+          font-size: 0px;
+        }
   }
 
   @include element ('menu') {

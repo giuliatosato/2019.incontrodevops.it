@@ -50,8 +50,18 @@ platinum:
     - 5 tickets with 15% discount
   max: 4
   list:
-
-
+    -
+      url: https://www.ideato.it/?utm_source=idi2019
+      image: ideato.svg
+    -
+      url: https://www.biodec.it/?utm_source=idi2019
+      image: biodec.svg
+    -
+      url: https:///sighup.io/?utm_source=idi2019
+      image: sighup.svg
+    -
+      url: https:///www.suse.com/?utm_source=idi2019
+      image: suse.svg
 gold:
   price: € 1,500
   offer:
@@ -63,12 +73,9 @@ gold:
     - 3 tickets with 15% discount
   max: 8
   list:
-   -
-     url: https://www.workwave.com/
-     image: workwave.svg
-   -
-      url: https://www.ideato.it/?utm_source=laravelday
-      image: ideato.svg
+    -
+      url: https://www.kiratech.it
+      image: kiratech.svg
 silver:
   price: € 750
   offer:
@@ -80,12 +87,14 @@ silver:
   max: 16
   list:
     -
-      url: https://labs.madisoft.it/?utm_source=reactjsday
+      url: https://labs.madisoft.it/?utm_source=idi2019
       image: madisoft.svg
     -
-      url: https://www.balsamiq.com?utm_source=reactjsday
-      image: balsamiq.svg
-
+      url: https://www.opencontent.it/?utm_source=idi2019
+      image: opencontent.svg
+    -
+      url: https://www.workwave.com/
+      image: workwave.svg
 bronze:
   price: € 500
   offer:

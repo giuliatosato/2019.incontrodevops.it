@@ -9,7 +9,7 @@
   text-transform: uppercase;
   vertical-align: baseline;
   white-space: nowrap;
-
+ 
   & + & {
     margin-top: s(4);
   }
@@ -73,7 +73,7 @@
     }
 
     @include media ('>=tablet-large') {
-      font-size: 140px; 
+      font-size: 140px;
     }
 
     @include media ('<tablet-large') {

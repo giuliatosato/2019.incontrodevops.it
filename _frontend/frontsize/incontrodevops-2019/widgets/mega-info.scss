@@ -15,7 +15,7 @@
   }
 
   @include modifier ('huge') {
-    $font-size: 340px;
+    $font-size: 120px;
     font-size: $font-size;
 
     @include media ('>=tablet-large') {
@@ -40,7 +40,7 @@
   }
 
   @include modifier ('big') {
-    $font-size: 200px;
+    $font-size: 140px;
     font-size: $font-size;
 
     @include media ('<desktop-large') {
@@ -73,7 +73,7 @@
     }
 
     @include media ('>=tablet-large') {
-      font-size: 200px;
+      font-size: 140px; 
     }
 
     @include media ('<tablet-large') {
